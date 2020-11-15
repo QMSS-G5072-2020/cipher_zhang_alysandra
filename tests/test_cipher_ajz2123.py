@@ -7,6 +7,6 @@ def test_version():
 def test_cipher():
     example = 'abc'
     shift = 5
-    expected = 'def'
+    expected = 'fgh'
     actual = cipher_ajz2123.cipher(example, shift)
     assert actual == expected
